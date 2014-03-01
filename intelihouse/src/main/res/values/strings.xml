@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Intelihouse</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="abc_configuracion">Configuración:</string>
+    <string name="abc_ip">Ip:</string>
+    <string name="abc_puerto">Puerto:</string>
+    <string name="abc_conectar_boton">Conectar</string>
+    <string name="agregarAC">Agregar</string>
+    <string name="borrarAC">Borrar</string>
+    <string name="GuardarAC">Guardar</string>
+    <string name="modificarAC">Modificar</string>
+
+</resources>

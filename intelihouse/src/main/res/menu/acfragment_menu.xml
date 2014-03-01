@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/remove_ac_item_enu"
+        android:icon="@drawable/ic_action_remove"
+        android:title="@string/borrarAC"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/edit_ac_item_menu"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/modificarAC"
+        android:showAsAction="ifRoom"/>
+</menu>

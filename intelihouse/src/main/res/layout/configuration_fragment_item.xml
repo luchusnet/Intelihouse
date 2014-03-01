@@ -1,0 +1,77 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/abc_ic_go_search_api_holo_light"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/abc_ip"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView2"
+            android:text="@string/abc_ip"
+            android:textColor="#ff8a04" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ipText"
+            android:inputType="text"
+            android:maxLength="15"
+            android:maxWidth="15dp"
+            android:layout_weight="0.62" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/abc_ic_go_search_api_holo_light"
+            android:contentDescription="@string/abc_ip"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView3"
+            android:text="@string/abc_puerto"
+            android:textColor="#ff8a04" />
+
+        <EditText
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/portText"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:id="@+id/connectbutton"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
